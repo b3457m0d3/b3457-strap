@@ -10,4 +10,6 @@ combined &amp; minified js/css for the various bootstrap add-ons i use
 - Bootstrap Rating Input [v1.0.0](https://github.com/javiertoledo/bootstrap-rating-input)
 - Bootstrap Maxlength [v1.5.3](https://github.com/mimo84/bootstrap-maxlength)
 - Bootstrap Lightbox [v0.6.1](https://github.com/jbutz/bootstrap-lightbox)
+- Bootstrap Markdown [v2.4.0](https://github.com/toopay/bootstrap-markdown) **shortly**
+- Bootstrap Switch [v3.0.0](https://github.com/nostalgiaz/bootstrap-switch) **shortly**
 - More to follow..
