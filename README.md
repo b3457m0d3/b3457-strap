@@ -5,7 +5,6 @@ combined &amp; minified js/css for the various bootstrap add-ons i use
 
 ---
 
-- Bootstrap Carousel [v3.0.0](http://getbootstrap.com/)
 - Bootstrap Timepicker [v0.2.5](https://github.com/jdewit/bootstrap-timepicker)
 - Bootstrap Select [v1.5.4](https://github.com/silviomoreto/bootstrap-select)
 - Bootstrap Rating Input [v1.0.0](https://github.com/javiertoledo/bootstrap-rating-input)
