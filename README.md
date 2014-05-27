@@ -1,5 +1,9 @@
 ![Works like a charm!](https://travis-ci.org/travis-ci/travis-web.svg?branch=master)
 
+**Dependencies:*** 
+- jQuery >= v1.9.0
+- Boostrap >= v3.1.1
+
 b3457-strap
 ===========
 
@@ -12,8 +16,10 @@ combined &amp; minified js/css for the various bootstrap add-ons i use
 - Bootstrap Rating Input [v1.0.0](https://github.com/javiertoledo/bootstrap-rating-input)
 - Bootstrap Maxlength [v1.5.3](https://github.com/mimo84/bootstrap-maxlength)
 - Bootstrap Lightbox [v0.6.1](https://github.com/jbutz/bootstrap-lightbox)
-- Bootstrap Markdown [v2.4.0](https://github.com/toopay/bootstrap-markdown) 
+- Bootstrap Markdown [v2.4.0](https://github.com/toopay/bootstrap-markdown)
+  - Markdown.js [v0.6.0](https://github.com/evilstreak/markdown-js) 
 - Bootstrap Switch [v3.0.1](https://github.com/nostalgiaz/bootstrap-switch) 
+- Bootstrap Datepicker [v?.?.?](http://www.eyecon.ro/bootstrap-datepicker/)
 - More to follow..
 
 bonus iconfonts **(docs soon)**
