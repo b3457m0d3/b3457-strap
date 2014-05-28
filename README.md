@@ -27,7 +27,7 @@ combined &amp; minified js/css for the various bootstrap add-ons i use
 - Bootstrap Markdown [v2.4.0](https://github.com/toopay/bootstrap-markdown)
   - Markdown.js [v0.6.0](https://github.com/evilstreak/markdown-js) 
 - Bootstrap Switch [v3.0.1](https://github.com/nostalgiaz/bootstrap-switch) 
-- Bootstrap Datepicker [v?.?.?](http://www.eyecon.ro/bootstrap-datepicker/)
+- Bootstrap Datepicker [v1.3.0](http://www.eyecon.ro/bootstrap-datepicker/)
   - Moment.js [v2.5.1](http://momentjs.com/)
 ```js
 $('input-group.date').datepicker({format:"yy-mm-dd"});
