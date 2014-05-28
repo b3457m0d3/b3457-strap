@@ -16,7 +16,7 @@ combined &amp; minified js/css for the various bootstrap add-ons i use
 //basic init
   $('select').selectpicker();
 //after dynamic content change
-  $('#select').html(new_content).selectpicker('refresh')
+  $('#select').html(new_content).selectpicker('refresh');
 ```
 - Bootstrap Rating Input [v1.0.0](https://github.com/javiertoledo/bootstrap-rating-input)
 ```html
