@@ -1,8 +1,6 @@
 ![Works like a charm!](https://travis-ci.org/travis-ci/travis-web.svg?branch=master)
 
-**Dependencies:*** 
-- jQuery >= v1.9.0
-- Boostrap >= v3.1.1
+**Dependencies:***  jQuery >= v1.9.0 && Boostrap >= v3.1.1
 
 b3457-strap
 ===========
