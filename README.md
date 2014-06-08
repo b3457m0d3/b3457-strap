@@ -40,6 +40,67 @@ $('input-group.date').datepicker({format:"yy-mm-dd"});
       </div>
   </div>
 ```
+- Bootstrap Validate [v0.0.4](https://github.com/Thrilleratplay/jquery-validation-bootstrap-tooltip/)
+  - jQuery Validate [v1.12.0](http://jqueryvalidation.org/)
+```js
+  // initialization
+  var $validator = $("#contactForm").validate({
+    //ignore fields with class ignore
+    ignore : ".ignore",  
+     // field name ( the actual name attribute ) : {options}
+	  rules  : { 
+	    email: { required: true, minlength: 3, email: true },
+	    name : { required: true, minlength: 3 },
+	    body : { required: true, minlength: 3 }
+	  },
+    // same format as rules, but these are the tooltip options for each field
+    tooltip_options: {  
+      name: {trigger:'manual'},
+      email: {placement:'right',html:true},
+      body: {placement:'right',html:true}
+    }
+  });
+  
+  //usage
+  //check entire form for errors
+  var $valid = $("#contactForm").valid();
+	if($valid) { 
+    // green light
+  }
+  
+  //check a single field
+  if($validator.element( "field selector" )){
+    // green light  
+  }
+```
+```html
+<form class="form-horizontal" role="form">
+  <div class="form-group">
+    <!--remember to use labels on every input!- messing up your feng shui? just .sr-only to hide them from view.-->  
+    <label for="name" class="col-sm-3 control-label">Name</label>
+    <div class="col-sm-9 input-group">
+      <span class="input-group-addon"><i class="fa fa-user"></i></span>
+      <input type="text" class="form-control" name="name" data-placement="bottom" placeholder="Name" required>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="name" class="col-sm-3 control-label">Message</label>
+    <div class="col-sm-9">
+      <textarea class="form-control" name="body" rows="5" placeholder="Message" required></textarea>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="email" class="col-sm-3 control-label">Email</label>
+    <div class="col-sm-9 input-group">
+      <span class="input-group-addon"><strong>@</strong></span>
+      <input type="email" class="form-control" name="email" placeholder="Email" required>
+      <span class="input-group-btn">
+        <button type="button" class="btn btn-default">Send <i class="fa fa-envelope"></i></button>
+      </span>
+    </div>
+  </div>
+</form>
+```
 - Bootstrap Timepicker [v0.2.5](https://github.com/jdewit/bootstrap-timepicker)
 - Bootstrap DateTimepicker [v3.0.0](https://github.com/Eonasdan/bootstrap-datetimepicker)
 - More to follow..
