@@ -23,6 +23,17 @@ combined &amp; minified js/css for the various bootstrap add-ons i use
 - Bootstrap Markdown [v2.4.0](https://github.com/toopay/bootstrap-markdown)
   - Markdown.js [v0.6.0](https://github.com/evilstreak/markdown-js) 
 - Bootstrap Switch [v3.0.1](https://github.com/nostalgiaz/bootstrap-switch) 
+```js
+$('input:checkbox').bootstrapSwitch();
+//event handling
+$('input:checkbox').on('swtchChange.bootstrapSwitch', function(event,state){
+    //state = true || false
+});
+```
+use data attributes to configure options 
+```html
+<input type="checkbox" name="checkbox" data-on-text="YES" data-off-text="NO">
+```
 - Bootstrap Datepicker [v1.3.0](http://www.eyecon.ro/bootstrap-datepicker/)
   - Moment.js [v2.5.1](http://momentjs.com/)
 ```js
